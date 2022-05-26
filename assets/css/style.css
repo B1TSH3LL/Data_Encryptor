@@ -40,3 +40,17 @@ textarea {
     margin: auto;
     cursor: pointer;
 }
+
+.btn-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    background-color: green;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}

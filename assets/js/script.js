@@ -8,7 +8,6 @@ var valueInVar = '';
 function textareaToVar() {
     valueInVar = document.getElementById("myTextarea").value;
     var Message = valueInVar;
-valueInVar.value = '';
     var encodedMessage = btoa(Message);
 
     var x = document.getElementById('outputArea');
